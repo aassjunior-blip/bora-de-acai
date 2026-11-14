@@ -1,0 +1,27 @@
+BORA DE AÇAÍ — CARDÁPIO ONLINE
+
+Projeto baseado no anexo recebido. Aplicação React + Vite + TypeScript + Tailwind.
+
+COMO EXECUTAR
+1. Instale Node.js (versão 20 ou superior).
+2. Abra um terminal nesta pasta.
+3. Execute: npm install
+4. Execute: npm run dev
+5. Abra no navegador o endereço local informado pelo Vite.
+
+PARA PUBLICAR
+Execute: npm run build
+A pasta de produção será criada em dist/. Publique o conteúdo dessa pasta em uma hospedagem estática compatível (por exemplo, Vercel, Netlify ou servidor próprio).
+
+ANTES DE RECEBER PEDIDOS, CONFIRA src/data/menu.ts:
+- STORE.whatsapp e whatsappLabel: telefone correto da loja.
+- STORE.address e STORE.city: endereço e cidade reais.
+- STORE.pixKey: chave Pix real (não deixe a chave de exemplo).
+- STORE.instagram: perfil correto.
+- STORE.minOrder e freeDeliveryFrom: valores definidos pela loja.
+- PRODUCTS, CUP_SIZES, BASES, TOPPINGS, SAUCES e PREMIUM_EXTRAS: produtos, tamanhos, adicionais e preços reais.
+- NEIGHBORHOODS: bairros e taxas de entrega reais.
+
+A Área da Loja permite ajustar configurações disponíveis no painel e guarda os dados no navegador do dispositivo. Para uso em vários dispositivos, será necessário integrar um banco de dados/backend.
+
+IMPORTANTE: O anexo já continha conteúdo demonstrativo. Não publique sem revisar endereço, cidade, chave Pix, taxas, horários e preços.
